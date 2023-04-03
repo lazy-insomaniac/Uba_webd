@@ -1,0 +1,24 @@
+.parallax {
+    background-image: url("/static/wall1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .parallax-inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100vh;
+  }
+  
+  .parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
